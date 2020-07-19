@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15sp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/kw" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/el_messiri"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="220dp"
+        android:text="دولة الكويت" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:textSize="27sp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/el_messiri"
+        android:layout_marginTop="70dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="200dp"
+        android:text="حكامها : ال صباح" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="290dp"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:fontFamily="@font/el_messiri"
+        android:layout_height="wrap_content"
+        android:text="الوصف : " />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="380dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/el_messiri"
+        android:text="هي دولة عربية تقع في الشرق الأوسط من جنوب غرب القارة الآسيوية، وتحديدًا في الركن الشمالي الغربي للخليج العربي الذي يحدها من الشرق، حيث يحدها من الشمال والغرب جمهورية العراق ومن الجنوب المملكة العربية السعودية، وتبلغ مساحتها الإجمالية 17,818 كيلومتر مربع، في حين يبلغ عدد السكان طبقًا لأخر إحصاء 4,67 مليون نسمة."
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="434dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/kwi" />
+
+</RelativeLayout>
